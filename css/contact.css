@@ -1,0 +1,392 @@
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	width: 1100px;
+	margin:auto; 
+}
+.flex{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* ========= Logo Part ======== */
+
+header{
+	background: #f9fafd;
+	overflow: hidden;
+	padding: 15px 40px;
+	border-bottom: 1px solid #00000033;
+}
+.logo{
+	width: 20%;
+	float: left;
+}
+.logo a{
+	text-decoration: none;
+	color: #090009;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.logo a h1{
+	font-size: 17.2px;
+}
+
+/* ======== Menu Part ======== */
+
+nav{
+	width: 80%;
+	float: left;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #050100;
+	font-size: 20px;
+	padding: 10px 20px;
+	display: block;
+}
+nav ul li a:hover{	
+	background: #090009;	
+	color: white;
+}
+
+
+body{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+/* Contact Area Style Start */
+.contact_area{
+	width: 100%;
+	margin: 0px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #FFFFFF;
+}
+.contact_area .container{
+	width: 80%;
+	margin: auto;
+}
+
+/* Contact Area Header Style Start */
+.contact_area .container .contact_area_header{
+	width: 100%;
+	margin-bottom: 30px;
+	position: relative;
+	text-align: center;
+}
+
+
+.contact_area .container .contact_area_header h2{
+	position: relative;
+	display: inline-block;
+	z-index: 2;
+	letter-spacing: 1px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px !important;
+	font-weight: 600;
+	line-height: 1.5;
+	text-transform: uppercase;
+	color: #161c2d;
+	padding-bottom: 1.5rem !important;
+	margin-bottom: 1.5rem !important;
+}
+
+.contact_area .container .contact_area_header h2:after{
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 2px;
+	left: calc(50% - 45px);
+	border-radius: 5px;
+	top: 55px;
+	background-color: #e54b4b;
+	box-sizing: border-box;
+}
+
+.contact_area .container .contact_area_header h2:before{
+	content: '';
+	position: absolute;
+	width: 30px;
+	height: 2px;
+	left: calc(50% + 17px);
+	border-radius: 5px;
+	top: 55px;
+	background-color: #e54b4b;
+	box-sizing: border-box;
+}
+
+.contact_area .container .contact_area_header span{
+	position: absolute;
+	width: 35px;
+	height: 17px;
+	left: calc(50% - 17px);
+}
+
+.contact_area .container .contact_area_header span:after{
+	content: "";
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top: 68px;
+	left: auto;
+	right: 2px;
+	transform: rotate(225deg);
+	border: 2px solid #e54b4b;
+	border-radius: 30px 30px 30px 0;
+	box-sizing: border-box;
+}
+.contact_area .container .contact_area_header span:before{
+	content: "";
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top: 68px;
+	left: 2px;
+	right: 2px;
+	transform: rotate(45deg);
+	border: 2px solid #e54b4b;
+	border-radius: 30px 30px 30px 0;
+	box-sizing: border-box;
+}
+
+.contact_area .container .contact_area_header p{
+	color: #8492a6 !important;
+	margin-bottom: 0px;
+	max-width: 700px;
+	margin-right: auto !important;
+	margin-left: auto !important;
+	letter-spacing: 0.03em;
+	line-height: 1.8;
+	margin-top: 0px;
+	font-size: 15px;
+	font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+/* Contact Area Header Style End */
+
+/* Contact Area Content Style Start */
+
+.contact_area .container .contact_area_content{
+	width: 100%;
+	margin: 0px;
+	display: inline-block;
+}
+.contact_area .container .contact_area_content .content_box{
+	width: 33.3333333333%;
+	margin-top: 1.5rem !important;
+	padding-top: .5rem !important;
+	float: left;
+	text-align: center;
+}
+
+.contact_area .container .contact_area_content .content_box .icon_box{
+	width: 100%;
+	margin: 0px;
+}
+
+.contact_area .container .contact_area_content .content_box .icon_box i{
+	font-size: 30px;
+}
+
+.contact_area .container .contact_area_content .content_box h2{
+	margin-top: 1.5rem !important;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.5;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: .5rem !important;
+	color: #161c2d;
+}
+.contact_area .container .contact_area_content .content_box p{
+	color: #8492a6 !important;
+	letter-spacing: 0.03em;
+	line-height: 1.8;
+	margin-top: 0px;
+	margin-bottom: 1rem;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+.contact_area .container .contact_area_content .content_box a{
+	text-decoration: none;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+	color: #e54b4b !important;
+}
+
+.contact_area .container .contact_area_content .content_box a:hover{
+	color: #dd2020 !important;
+}
+.contact_area .container .contact_area_content .content_box a:focus{
+	color: #dd2020 !important;
+}
+/* Contact Area Content Style End */
+
+/* Message Area Style Start */
+
+.contact_area .container .message_area{
+	width: 100%;
+	padding-top: 3rem !important;
+	margin-top: 1rem !important;
+	display: inline-block;
+}
+
+.contact_area .container .message_area form{
+	width: 100%;
+	margin: 0px;
+}
+.contact_area .container .message_area form .message_area_left{
+	width: 47%;
+	float: left;
+	padding-right: 22px;
+}
+.contact_area .container .message_area form .message_area_left input[type="text"]{
+	margin-bottom: 30px;
+	width: 98%;
+	color: #161c2d;
+	font-size: 14px;
+	background-color: #fff;
+	border-radius: 7px !important;
+	padding: .375rem .75rem;
+	line-height: 1.5;
+	font-weight: 400;
+	outline: none !important;
+	transition: all 0.2s ease;
+	border: 1px solid #e9ecef !important;
+	font-family: inherit;
+	height: 26px;
+}
+.contact_area .container .message_area form .message_area_left input[type="email"]{
+	margin-bottom: 30px;
+	width: 98%;
+	color: #161c2d;
+	font-size: 14px;
+	background-color: #fff;
+	border-radius: 7px !important;
+	padding: .375rem .75rem;
+	line-height: 1.5;
+	font-weight: 400;
+	outline: none !important;
+	transition: all 0.2s ease;
+	border: 1px solid #e9ecef !important;
+	font-family: inherit;
+	height: 26px;
+}
+.contact_area .container .message_area form .message_area_left #subject{
+	margin-bottom: 0px;
+	width: 98%;
+	color: #161c2d;
+	font-size: 14px;
+	background-color: #fff;
+	border-radius: 7px !important;
+	padding: .375rem .75rem;
+	line-height: 1.5;
+	font-weight: 400;
+	outline: none !important;
+	transition: all 0.2s ease;
+	border: 1px solid #e9ecef !important;
+	font-family: inherit;
+	height: 26px;
+}
+
+.contact_area .container .message_area form .message_area_right{
+	width: 47.6%;
+	float: left;
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+.contact_area .container .message_area form .message_area_right textarea{
+	width: 98%;
+	float: left;
+
+	color: #161c2d;
+	font-size: 14px;
+	background-color: #fff;
+	border-radius: 7px !important;
+	padding: .375rem .75rem;
+	line-height: 1.5;
+	font-weight: 400;
+	outline: none !important;
+	transition: all 0.2s ease;
+	border: 1px solid #e9ecef !important;
+	font-family: inherit;
+	height: 165px;
+	
+}
+.contact_area .container .message_area form .btnn_area{
+	width: 100%;
+	display: inline-block;
+	text-align: right;
+}
+
+.btnn_area a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+}
+
+.contact_area .container .message_area form .btnn_area button{
+	cursor: pointer;
+	box-shadow: 0 3px 5px 0 rgba(229, 75, 75, 0.3);
+	padding: 8px 20px;
+	text-decoration: none;
+	outline: none;
+	font-size: 15px;
+	color: #fff;
+	letter-spacing: 0.5px;
+	transition: all 0.3s;
+	border-radius: 7px;
+	border: 1px solid #e54b4b !important;
+	line-height: 1.5;
+	font-weight: 400;
+	appearance: button;
+	font-family: inherit;
+	margin: 0px;
+	background-color: #e54b4b !important;
+}
+
+.contact_area .container .message_area form .btnn_area button:hover{
+	border-color: #dd2020 !important;
+	background-color: #dd2020 !important;
+}
+
+/* Message Area Style End */
+
+
+
+/* Contact Area Style End */
+
+
+
+/* -------------- */
+
+footer{
+	background: #282C2F;
+	overflow: hidden;
+	text-align: center;
+	color: #fff;
+	padding: 14px 0;
+}
+
+footer p{
+	text-align: center;
+}
